@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSeats - Authentic Home Food in India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;800&family=Squada+One:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">VSeats</div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" class="search-icon"></a>
+                <a href="#" class="cart-icon"></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Authentic Home food in India</h1>
+                <p>VSeats is a courier service in which authentic home cook food is delivered to a customer.</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Search food you love">
+                    <button>Search</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Hero image will be added via CSS -->
+            </div>
+        </div>
+    </section>
+
+    <section class="home-kitchen">
+        <div class="container">
+            <h2>Home Kitchen</h2>
+            <div class="food-grid">
+                <!-- Food items will be dynamically added with JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-items">
+        <div class="container">
+            <h2>Popular Items</h2>
+            <div class="carousel-container">
+                <button class="carousel-prev" aria-label="Previous item"></button>
+                <div class="carousel-items">
+                    <!-- Carousel items will be dynamically added with JavaScript -->
+                </div>
+                <button class="carousel-next" aria-label="Next item"></button>
+            </div>
+            <div class="request-dish-btn">
+                <button>Request a dish</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-info">
+        <div class="container">
+            <div class="service-text">
+                <h2>We are providing best home cooked food delivery service.</h2>
+                <p>Away from home and craving the tasty homemade recipes? Choose from a selection of our delicious home cooked dishes.</p>
+                
+                <div class="activ-section">
+                    <h3>Activ</h3>
+                    <p>Our active community of home chefs ensures you get the freshest, most authentic meals delivered right to your door.</p>
+                </div>
+            </div>
+            
+            <div class="service-video">
+                <div class="video-container">
+                    <!-- Background video -->
+                    <video class="bg-video" autoplay muted loop playsinline>
+                        <source src="Images\Food Promo Video.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- Gradient overlay -->
+                    <div class="overlay"></div>
+
+                    <!-- Play button (on top) -->
+                    <div class="play-button"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="container">
+            <div class="form-container">
+                <h3>Do you have a question or want to become a seller?</h3>
+                <p>Fill this form and our manager will contact you next 48 hours.</p>
+                <form id="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your e-mail" required>
+                    </div>
+                    <textarea placeholder="Your message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="delivery-image">
+                <!-- Delivery image will be added via CSS -->
+            </div>
+        </div>
+    </section>
+
+    <div class="cart" id="cart">
+        <h3>Your Cart</h3>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+            <span>Total:</span>
+            <span id="cart-total-amount">₹0</span>
+        </div>
+        <div class="cart-actions">
+            <button class="checkout-btn">Checkout</button>
+            <button class="clear-btn">Clear</button>
+        </div>
+        <div id="add-to-cart-toast" style="display:none;"></div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">VSeats</div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                <div class="social-icons">
+                    <a href="#"><img src = "Images/Facebook.svg" alt = "Facebook" ></a>
+                    <a href="#"><img src = "Images/insta.svg" alt = "Instagram" ></a>
+                </div>
+                <div class="social-icons"></div>
+            </div>
+            <div class="footer-divider"></div>
+        </div>
+    </footer>
+
+    <!-- Modal/Popup -->
+    <div class="modal" id="request-dish-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Request a Dish</h3>
+            <form id="request-dish-form">
+                <input type="text" placeholder="Dish Name" required>
+                <textarea placeholder="Dish Description" required></textarea>
+                <button type="submit">Submit Request</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js\carousel.js"></script>
+    <script src="js\script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <g transform="translate(0,0)">
+    <!-- Kitchen background -->
+    <rect x="0" y="0" width="500" height="500" fill="#25AB75" opacity="0.1"/>
+    
+    <!-- Kitchen cabinet -->
+    <rect x="50" y="50" width="200" height="150" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+    <line x1="150" y1="50" x2="150" y2="200" stroke="#ddd" stroke-width="2"/>
+    <circle cx="90" cy="125" r="8" fill="#ddd"/>
+    <circle cx="210" cy="125" r="8" fill="#ddd"/>
+    
+    <!-- Kitchen utensils -->
+    <rect x="300" y="50" width="10" height="150" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+    <rect x="320" y="50" width="10" height="150" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+    <rect x="340" y="50" width="10" height="150" fill="#f5f5f5" stroke="#ddd" stroke-width="2"/>
+    <path d="M300 40 Q 305 20 310 40" stroke="#ddd" stroke-width="2" fill="none"/>
+    <path d="M320 40 Q 325 20 330 40" stroke="#ddd" stroke-width="2" fill="none"/>
+    <path d="M340 40 Q 345 10 350 40" stroke="#ddd" stroke-width="2" fill="none"/>
+    
+    <!-- Kitchen tiles -->
+    <g opacity="0.3">
+      <rect x="0" y="250" width="500" height="250" fill="#f5f5f5"/>
+      <line x1="0" y1="300" x2="500" y2="300" stroke="#ddd" stroke-width="1"/>
+      <line x1="0" y1="350" x2="500" y2="350" stroke="#ddd" stroke-width="1"/>
+      <line x1="0" y1="400" x2="500" y2="400" stroke="#ddd" stroke-width="1"/>
+      <line x1="0" y1="450" x2="500" y2="450" stroke="#ddd" stroke-width="1"/>
+      
+      <line x1="50" y1="250" x2="50" y2="500" stroke="#ddd" stroke-width="1"/>
+      <line x1="100" y1="250" x2="100" y2="500" stroke="#ddd" stroke-width="1"/>
+      <line x1="150" y1="250" x2="150" y2="500" stroke="#ddd" stroke-width="1"/>
+      <line x1="200" y1="250" x2="200" y2="500" stroke="#ddd" stroke-width="1"/>
+      <line x1="250" y1="250" x2="250" y2="500" stroke="#ddd" stroke-width="1"/>
+      <line x1="300" y1="250" x2="300" y2="500" stroke="#ddd" stroke-width="1"/>
+      <line x1="350" y1="250" x2="350" y2="500" stroke="#ddd" stroke-width="1"/>
+      <line x1="400" y1="250" x2="400" y2="500" stroke="#ddd" stroke-width="1"/>
+      <line x1="450" y1="250" x2="450" y2="500" stroke="#ddd" stroke-width="1"/>
+    </g>
+    
+    <!-- Chef character -->
+    <!-- Head -->
+    <circle cx="250" cy="180" r="40" fill="#FFD8B9"/>
+    
+    <!-- Hair -->
+    <path d="M220 160 Q 230 140 250 140 Q 270 140 280 160" fill="#333"/>
+    <rect x="220" y="150" width="10" height="20" fill="#333"/>
+    <rect x="270" y="150" width="10" height="20" fill="#333"/>
+    
+    <!-- Face -->
+    <circle cx="235" cy="170" r="5" fill="#333"/>
+    <circle cx="265" cy="170" r="5" fill="#333"/>
+    <path d="M240 190 Q 250 200 260 190" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Body -->
+    <rect x="220" y="220" width="60" height="100" fill="#25AB75" rx="10" ry="10"/>
+    <rect x="220" y="220" width="60" height="100" fill="#25AB75" opacity="0.3" rx="10" ry="10"/>
+    
+    <!-- Apron -->
+    <path d="M220 240 L 280 240 L 290 350 L 210 350 Z" fill="white"/>
+    
+    <!-- Arms -->
+    <rect x="180" y="230" width="40" height="20" fill="#FFD8B9" rx="10" ry="10"/>
+    <rect x="280" y="230" width="40" height="20" fill="#FFD8B9" rx="10" ry="10"/>
+    
+    <!-- Hands -->
+    <circle cx="180" cy="240" r="15" fill="#FFB999"/>
+    <circle cx="320" cy="240" r="15" fill="#FFB999"/>
+    
+    <!-- Cooking pot -->
+    <rect x="200" y="350" width="100" height="60" fill="#333" rx="5" ry="5"/>
+    <rect x="190" y="350" width="120" height="10" fill="#555" rx="5" ry="5"/>
+    
+    <!-- Cooking ingredients -->
+    <circle cx="150" y="380" r="10" fill="#FFC700"/>
+    <rect x="330" y="370" width="20" height="30" fill="#FFC700"/>
+    <circle cx="370" y="380" r="10" fill="white"/>
+  </g>
+</svg>

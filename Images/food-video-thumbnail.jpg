@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f5f5f5"/>
+  
+  <!-- Food bowl -->
+  <ellipse cx="400" cy="250" rx="150" ry="50" fill="#d32f2f"/>
+  <ellipse cx="400" cy="230" rx="140" ry="45" fill="#f44336"/>
+  <ellipse cx="400" cy="230" rx="120" ry="35" fill="#f5f5f5"/>
+  
+  <!-- Food content -->
+  <ellipse cx="400" cy="220" rx="110" ry="30" fill="#795548"/>
+  
+  <!-- Rice/grains -->
+  <g fill="#e0e0e0">
+    <circle cx="370" cy="210" r="3"/>
+    <circle cx="380" cy="215" r="3"/>
+    <circle cx="390" cy="208" r="3"/>
+    <circle cx="400" cy="212" r="3"/>
+    <circle cx="410" cy="205" r="3"/>
+    <circle cx="420" cy="210" r="3"/>
+    <circle cx="430" cy="215" r="3"/>
+    <circle cx="375" cy="220" r="3"/>
+    <circle cx="385" cy="225" r="3"/>
+    <circle cx="395" cy="218" r="3"/>
+    <circle cx="405" cy="222" r="3"/>
+    <circle cx="415" cy="215" r="3"/>
+    <circle cx="425" cy="220" r="3"/>
+  </g>
+  
+  <!-- Vegetables around the bowl -->
+  <!-- Carrot -->
+  <path d="M200 300 L220 200 L240 300 Z" fill="#ff9800"/>
+  <path d="M220 200 L225 180 L215 180 Z" fill="#4caf50"/>
+  <path d="M225 180 L230 160 L210 160 L215 180 Z" fill="#4caf50"/>
+  
+  <!-- Broccoli -->
+  <rect x="150" y="250" width="10" height="50" fill="#8d6e63"/>
+  <circle cx="155" cy="240" r="20" fill="#4caf50"/>
+  <circle cx="140" cy="230" r="15" fill="#4caf50"/>
+  <circle cx="170" cy="230" r="15" fill="#4caf50"/>
+  <circle cx="155" cy="220" r="15" fill="#4caf50"/>
+  
+  <!-- Herbs -->
+  <g fill="#4caf50">
+    <ellipse cx="600" cy="250" rx="5" ry="20" transform="rotate(30 600 250)"/>
+    <ellipse cx="610" cy="240" rx="5" ry="20" transform="rotate(60 610 240)"/>
+    <ellipse cx="620" cy="250" rx="5" ry="20" transform="rotate(90 620 250)"/>
+    <ellipse cx="630" cy="240" rx="5" ry="20" transform="rotate(120 630 240)"/>
+    <ellipse cx="640" cy="250" rx="5" ry="20" transform="rotate(150 640 250)"/>
+  </g>
+  
+  <!-- Salt grains -->
+  <g fill="white">
+    <circle cx="500" cy="300" r="2"/>
+    <circle cx="510" cy="305" r="2"/>
+    <circle cx="505" cy="310" r="2"/>
+    <circle cx="515" cy="308" r="2"/>
+    <circle cx="520" cy="300" r="2"/>
+    <circle cx="525" cy="305" r="2"/>
+    <circle cx="530" cy="310" r="2"/>
+  </g>
+  
+  <!-- Steam -->
+  <path d="M370 190 Q 360 170 370 150 Q 380 130 370 110" fill="none" stroke="#e0e0e0" stroke-width="3" opacity="0.7"/>
+  <path d="M400 190 Q 390 160 400 130 Q 410 100 400 70" fill="none" stroke="#e0e0e0" stroke-width="3" opacity="0.7"/>
+  <path d="M430 190 Q 420 170 430 150 Q 440 130 430 110" fill="none" stroke="#e0e0e0" stroke-width="3" opacity="0.7"/>
+</svg>
