@@ -151,11 +151,11 @@ nav ul li a.active {
 }
 
 .search-icon {
-    background-image: url('../Images/card.png');
+    background-image: url('../images/card.png');
 }
 
 .cart-icon {
-    background-image: url('../Images/card1.png');
+    background-image: url('../images/card1.png');
 }
 
 /* Hero Section */
@@ -199,7 +199,7 @@ nav ul li a.active {
     position: absolute;
     top: 239.9px;
     right: 0;
-    background-image: url('../Images/cooking/cuate.svg');
+    background-image: url('../images/cooking/cuate.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -429,12 +429,12 @@ nav ul li a.active {
 
 .carousel-prev {
     left: -80px;
-    background-image: url('../Images/Arrow-1.svg');
+    background-image: url('../images/Arrow-1.svg');
 }
 
 .carousel-next {
     left: 1106.5px;
-    background-image: url('../Images/Arrow.svg');
+    background-image: url('../images/Arrow.svg');
 }
 
 .carousel-items {
@@ -888,7 +888,7 @@ nav ul li a.active {
 .delivery-image {
     width: 503px;
     height: 402px;
-    background-image: url('../Images/food cart boy.svg');
+    background-image: url('../images/food cart boy.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1537,11 +1537,11 @@ footer nav ul li a {
 }
 
 .facebook {
-    background-image: url('../Images/Facebook.svg');
+    background-image: url('../images/Facebook.svg');
 }
 
 .instagram {
-    background-image: url('../Images/insta.svg');
+    background-image: url('../images/insta.svg');
 }
 .facebook,
 .instagram {
@@ -1602,7 +1602,7 @@ footer nav ul li a {
 }
 
 .facebook {
-    background-image: url('../Images/Facebook.svg');
+    background-image: url('../images/Facebook.svg');
 }
 
 .instagram {
@@ -1611,7 +1611,7 @@ footer nav ul li a {
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
-    background-image: url('../Images/insta.svg');
+    background-image: url('../images/insta.svg');
 }
 
 /* Modal/Popup */
